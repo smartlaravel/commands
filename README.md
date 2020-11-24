@@ -8,10 +8,9 @@ To install:
 composer require smartlaravel/commands
 ```
 
-```
-php artisan app:setup
-```
+New commands available:
 
 ```
+php artisan app:setup
 php artisan app:update
 ```

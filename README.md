@@ -1,4 +1,4 @@
-# SmartLaravel/Commands
+# SmartLaravel Commands (for Laravel v8+)
 
 > This package adds commands to simplify the setup and update commands typically used in Laravel projects.
 

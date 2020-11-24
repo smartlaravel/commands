@@ -10,5 +10,14 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "SmartLaravel\\Commands\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["SmartLaravel\\Commands\\CommandsServiceProvider"]
+        }
+    }
 }

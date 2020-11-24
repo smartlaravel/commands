@@ -1,0 +1,14 @@
+{
+    "name": "smartlaravel/commands",
+    "description": "Adds enhanced commands to Laravel for setup and updating",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Philip Theobald",
+            "email": "fylzero@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

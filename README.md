@@ -13,4 +13,5 @@ New commands available:
 ```
 php artisan app:setup
 php artisan app:update
+php artisan users:clear-unverified
 ```

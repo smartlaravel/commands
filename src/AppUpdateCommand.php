@@ -42,5 +42,8 @@ class AppUpdateCommand extends Command
         exec('npm audit fix');
         exec('git add .');
         exec('git commit -m "Composer and NPM update"');
+        $this->call('optimize:clear');
+        exec('composer dump-autoload');
+        // $this->info('Laravel Framework Version '.app()->version()); - Doesn't show the latest version, sadly
     }
 }
